@@ -1,0 +1,75 @@
+
+body{
+    background-color: rgb(218, 252, 241);
+    font-family: "Roboto", sans-serif;
+ margin-right:auto;
+ margin-left: auto;
+}
+.main{
+    width:500px;
+   border-top: 7px solid #06402b;
+    height:600px;
+    background-color: #fff;
+    padding: 2px;
+   margin:5px;
+    margin: 7px 400px;
+    border-radius: 7px;
+ text-align: center;
+ float :left;
+}
+div h2{
+    font-weight: 800;
+    font-size: 40px;
+ letter-spacing: 0.1rem;
+ padding-right: 30%;
+}
+div p{
+    color: grey;
+padding-right: 20%;
+}
+.angel{
+    background-color:rgba(231, 231, 231, 0.925);
+    width: 300px;
+    border: none;
+    padding: 10px;
+font-size: 18px;
+}
+textarea{
+    background-color:rgba(231, 231, 231, 0.925);
+    width: 300px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+button{
+    background-color: #06402b;
+    color:#ffff;
+    width:300px;
+    padding: 10px 20px;
+    border:none;
+    font-size: 18px;
+}
+.angel:hover  {
+    transition: border-bottom 0.5s ease-in-out;
+  width:80% ;
+padding-bottom: 15px;
+  border-bottom: 5px solid #06402b; 
+  transform: translateY(10px);
+}
+textarea:hover  {
+    transition: border-bottom 0.5s ease-in-out;
+  width:80% ;
+padding-bottom: 15px;
+  border-bottom: 5px solid #06402b;
+
+}
+
+button:hover{
+    box-shadow:0.5em 0.5em 1em 0.4em rgba(0,0,0,0.2);
+border-top: 2px solid darkblue ;
+transition: border-top 0.2s , transform 1s;
+transform:translateZ(10px)
+}
+span b{
+    color: #000;
+}
